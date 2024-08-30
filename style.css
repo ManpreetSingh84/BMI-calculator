@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    min-height: 100%;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    flex-direction: column;
+    gap: 40px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+}
+form input{
+    padding: 10px;
+    border-radius: 10px 15px
+}
+button{
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+#informationSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+}
+}
